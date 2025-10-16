@@ -28,7 +28,7 @@ jobs:
           mkdir -p target
           
           # Adjust these if your web.xml and JSPs are in a different folder
-          cd WebContent
+          cd Web-INF
           jar -cvf ../target/ROOT.war *
           cd ..
           
