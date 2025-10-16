@@ -105,7 +105,6 @@ jobs:
       # 8 Deploy WAR on Tomcat
       - name: Deploy WAR on Tomcat
         uses: appleboy/ssh-action@master
-        with:BOB
           host: ${{ secrets.EC2_HOST }}
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
